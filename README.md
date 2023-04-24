@@ -19,10 +19,10 @@ The data is obtained from Indian National Centre for Ocean Information Services 
 The average loss of this data set is about 86%. Temporal variability of total missing data presents an irregular distribution with minimum average missing data of about 40% to 60% and maximum average missing data of more than 90%. Typical missing data sizes are comparative large, covering most of the experimental area at a time.
 
 
-## Algorithm
+## Solution
 * Matrix factorization algorithm for determination of missing values
 
-## Results
+## Result
 The algorithm is computationally less expensive but has its own limitation. The model worked well for smaller patches up to 12 % of the missing values. Considering a single patch, the model gave good result up to 5% of the missing values.
 
 
