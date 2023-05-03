@@ -13,7 +13,7 @@ SST data is captured using satellites. However, these SST data are often influen
 
 The data is obtained from Indian National Centre for Ocean Information Services Data Center.
 
-* Spatio-temporal data with a resolution of  0.25 degree X 0.25 degree
+* Spatio-temporal data with a resolution of  0.25° X 0.25°
 * Geographic area covered is 60–90°E and 20°N–2°S
 
 The average loss of this data set is about 86%. Temporal variability of total missing data presents an irregular distribution with minimum average missing data of about 40% to 60% and maximum average missing data of more than 90%. Typical missing data sizes are comparative large, covering most of the experimental area at a time.
