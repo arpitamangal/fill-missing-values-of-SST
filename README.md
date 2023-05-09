@@ -1,6 +1,6 @@
 # fill-missing-values-SST
 A sea surface temperature (SST) data from the NOAA AVHRR data is reconstructed for various percentage of missing values spread to check the algorithm’s utility. The objective of the project is to:
-* filling in the missing values of SST using matrix factorization algorithm.
+* filling in the missing values of SST using matrix factorization algorithm and CNN.
 * see how does the algorithm responds to different spread of cloud coverage. 
 
 ## Why Sea Surface Temperature?
@@ -21,12 +21,22 @@ The average loss of this data set is about 86%. Temporal variability of total mi
 
 ## Solution
 * Matrix factorization algorithm for determination of missing values
+* Convolutional Neural Network (trade-off with 2 and 3 hidden layer)
 
 ## Result
 The algorithm is computationally less expensive but has its own limitation. The model worked well for smaller patches up to 12 % of the missing values. Considering a single patch, the model gave good result up to 5% of the missing values.
+* Matrix Factorization Algorithm
+
+<img width="484" alt="sst_matrix" src="https://user-images.githubusercontent.com/12899164/236991861-f90bb852-0bda-41f1-a15a-269a1cbfd105.png">
 
 
-<img width="337" alt="image" src="https://user-images.githubusercontent.com/12899164/233885048-c414854c-3cc8-4076-b55e-97be7c779f73.png">
-Chlorophyll Image retrieved from Oceansat-2 Satellite Data
+* Convolutional Neural Network
+
+<img width="485" alt="sst_cnn" src="https://user-images.githubusercontent.com/12899164/236991826-f9a1dacb-311e-43f6-9ca8-0b537cf476fd.png">
+
+
+### Sea Surface Temperature Heat Map (AVHRR Data)
+
+![sst_AVHRR](https://user-images.githubusercontent.com/12899164/236992124-53b4100c-aaca-488b-bf8d-f86ff1857daf.jpg)
 
 
